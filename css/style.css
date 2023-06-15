@@ -46,7 +46,7 @@ main {
     background-color: #fff;
 }
 
-.item-1 h2 {
+.item-1 h1 {
     color: var(--cyan);
     font-weight: var(--fw-b);
     font-size: 1.3rem;
