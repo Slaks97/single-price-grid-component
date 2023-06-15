@@ -84,9 +84,14 @@ main {
     margin-bottom: 10px;
 }
 
-.item-2 p span {
+.item-2 .accent-price {
     font-size: 2.5rem;
     font-weight: var(--fw-b);
+    vertical-align: middle;
+}
+
+.item-2 .accent-permonth {
+    color: #67D7D7;
 }
 
 .item-2 .btn {
