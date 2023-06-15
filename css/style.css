@@ -53,7 +53,7 @@ main {
     margin-bottom: 15px;
 }
 
-.item-1 h3 {
+.item-1 h2 {
     color: var(--bright-yellow);
     font-weight: var(--fw-b);
     font-size: var(--fs);
