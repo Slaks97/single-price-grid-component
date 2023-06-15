@@ -22,11 +22,10 @@ body {
 .container {
     background-color: var(--light-gray);
     min-height: 100vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 30px;
+    padding: 100px 30px 30px;
 }
 
 main {
@@ -49,14 +48,14 @@ main {
 .item-1 h1 {
     color: var(--cyan);
     font-weight: var(--fw-b);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
 }
 
 .item-1 h2 {
     color: var(--bright-yellow);
     font-weight: var(--fw-b);
-    font-size: var(--fs);
+    font-size: 1.1rem;
     margin-bottom: 15px;
 }
 
@@ -84,13 +83,13 @@ main {
     margin-bottom: 10px;
 }
 
-.item-2 .accent-price {
-    font-size: 2.5rem;
+.accent-price {
+    font-size: 2.3rem;
     font-weight: var(--fw-b);
     vertical-align: middle;
 }
 
-.item-2 .accent-permonth {
+.accent-permonth {
     color: #67D7D7;
 }
 
@@ -104,7 +103,7 @@ main {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: var(--fw-b);
-    margin-top: 30px;
+    margin-top: 25px;
     border-radius: 8px;
     box-shadow: 0px 4px 10px 1px #00000033;
 }
@@ -116,24 +115,35 @@ main {
 .item-3 h3 {
     color: #fff;
     font-weight: var(--fw-b);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
 }
 
 .item-3 p {
     color: var(--light-gray);
+    font-size: .9rem;
     line-height: 1.5rem;
+}
+
+footer {
+    background-color: var(--light-gray);
+    line-height: 1.6;
 }
 
 @media only screen and (min-width: 768px) {
     main {
         grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+    }
+    .item {
+        padding: 50px 45px;
     }
     .item-1 {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
+        padding-right: 80px;
     }
     .item-2, .item-3 {
         grid-row-start: 2;
